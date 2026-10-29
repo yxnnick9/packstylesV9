@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "yxnnick9studio",
+  "version": "${version}",
+  "name": "yxnnick9 Texture Studio",
+  "description": "Waehle Item-Texturen aus deinen eigenen Texturepacks - mit anpassbarer GUI.",
+  "authors": ["yxnnick9"],
+  "license": "MIT",
+  "environment": "client",
+  "mixins": ["yxnnick9studio.mixins.json"],
+  "entrypoints": {
+    "client": ["de.yxnnick9.studio.StudioClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
